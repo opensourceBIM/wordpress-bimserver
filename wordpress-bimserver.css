@@ -1,0 +1,41 @@
+.error-message {
+   margin-bottom: 10px;
+   color: #dd0000;
+   font-weight: bold;
+}
+
+#bimserver-progress-bar {
+   width: 100%;
+   background-color: #bbbbbb;
+   border: 2px solid #cccccc;
+   border-radius: 3px;
+   height: 24px;
+   position: relative;
+   box-sizing: content-box;
+}
+
+#bimserver-progress-bar .text {
+   z-index: 2;
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 24px;
+   line-height: 22px;
+   width: 100%;
+   text-align: center;
+   color: #ffffff;
+}
+
+#bimserver-progress-bar .filled {
+   position: absolute;
+   height: 24px;
+   top: 0;
+   left: 0;
+   background-color: #3DA339;
+   border-radius: 3px;
+   z-index: 1;
+}
+
+tr.bold td {
+   font-weight: bold;
+}
